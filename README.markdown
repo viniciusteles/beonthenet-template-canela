@@ -9,6 +9,20 @@ Autor: [Leonardo Miranda][1] - [contatos][2].
 Localização: Petrolina, PE, Brasil.  
 Licença: [Creative Commons Atribuição 2.5][cc].  
 
+## Wedding Cake
+
+Autoria: [Gaetan Lee][w1]  
+Localização: Londres, Reino Unido  
+Licença: [Creative Commons Atribuição 2.5][cc]  
+Fonte: [Flickr][w2]
+
+## Box Shots
+
+Autoria: [Christian Guthier][b1]  
+Localização: Oxford, Reino Unido  
+Licença: [Creative Commons Atribuição 2.5][cc]  
+Fonte: [Flickr][b2]
+
 ## Fotos
 
 Autoria: [Patricia Figueira][p].  
@@ -42,3 +56,9 @@ Instruções sobre como criar um novo template para o [Be on the Net][] podem se
 [0]: http://beonthe.net/galerias/templates/galeria/72157611344502310/1
 [1]: http://leomiranda.com.br/
 [2]: http://leomiranda.com.br/contato.html
+
+[w1]: http://www.gaetanlee.com
+[w2]: http://www.flickr.com/photos/gaetanlee/1345949748/
+
+[b1]: http://www.flickr.com/photos/wheatfields/
+[b2]: http://www.flickr.com/photos/wheatfields/2622582186/
