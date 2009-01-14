@@ -84,6 +84,10 @@ ul#thumbnails li {
    text-align:             center;
 }
 
+ul#thumbnails h3 {
+  line-height:            80%;
+}
+
 ul#thumbnails li div a {
   text-align:             center;
   text-decoration:        none;

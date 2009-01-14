@@ -154,14 +154,26 @@ body.application #main_content h2 {
 
 /* Thumbnails */
 ul#thumbnails {
-  margin-right:           -42px;
-	
+  margin-right:           -42px;	
 }
 
 ul#thumbnails li {
 	float:                  left;
 	width:                  270px;
-  margin:                 0 42px 40px 0;  
+  margin:                 2.5em 42px 2em 0;  
+  position:               relative;
+}
+
+ul#thumbnails h3 {
+  position:               absolute;
+  bottom:                 290px;
+  left:                   0;
+  right:                  0;
+}
+
+ul#thumbnails h4 {
+  position:               relative;
+  top:                    .5em;
 }
 
 ul#thumbnails li div {
@@ -185,14 +197,6 @@ ul#thumbnails li div a label {
 	position:               absolute;
 	bottom:                 7px;
 	left:                   10px;
-}
-
-ul#thumbnails h3{
-  line-height: 80%;
-}
-
-body.videos #thumbnails h3 {
-  height:                 2em;
 }
 
 body.videos #thumbnails img {
