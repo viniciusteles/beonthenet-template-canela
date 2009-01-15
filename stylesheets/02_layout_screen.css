@@ -206,19 +206,23 @@ body.videos #thumbnails img {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints {
+#summary, #about_us, #data_sheet, .error_hints, #picture_description {
 	padding:                20px;
   	margin-bottom:          20px;
 }
 
-#summary {
+#summary, #picture_description {
 	min-height:             4.5em;
 	height:                 auto !important;
 	height:                 4.5em;
-	padding-right:          20em;
 	position:               relative;
 	clear:                  both;
 }
+
+#summary {
+	padding-right:          20em;
+}
+
 /* /Summary */
 
 
