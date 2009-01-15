@@ -212,14 +212,14 @@ body.videos #thumbnails img {
 }
 
 #summary, #picture_description {
-	min-height:             4.5em;
-	height:                 auto !important;
-	height:                 4.5em;
 	position:               relative;
 	clear:                  both;
 }
 
 #summary {
+	min-height:             4.5em;
+	height:                 auto !important;
+	height:                 4.5em;
 	padding-right:          20em;
 }
 
