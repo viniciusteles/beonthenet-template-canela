@@ -90,7 +90,7 @@ h4 a:hover {
 	color:					#d4c38a;
 }
 
-#header li a:hover {	
+#header li a:hover, #header li.current a {	
 	background-color:                  #d4c38a;
 	color:					#5b4426;
 }

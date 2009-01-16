@@ -69,7 +69,7 @@ h3 a:focus, h3 a:hover {
 	letter-spacing:           .1em;
 }
 
-#header li a:hover, #header li a:active  {
+#header li a:hover, #header li a:active, #header li.current a  {
   	text-decoration:        none;	
 	font-size:				14px;
 	font-weight:			bold;
