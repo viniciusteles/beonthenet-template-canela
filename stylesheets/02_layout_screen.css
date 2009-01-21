@@ -74,6 +74,12 @@ body.instructions h2 { position: static !important; }
   overflow:               hidden;
 }
 
+
+#slogan {
+  display:                none;
+}
+
+
 #header ul {
   width:						200px;
   position:               		absolute;
