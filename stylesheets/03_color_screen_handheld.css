@@ -326,8 +326,6 @@ ul.error_hints a:hover {
 
 
 /* Selection */
-
-
 body#selection #selection_size, 
 body#selection #selection_size label {
 	color:                  #ebe0bc;
@@ -389,6 +387,9 @@ body.best_galleries #second {
 	background:             transparent url(../images/shopping_cart_second.gif) no-repeat right center;
 }
 
+.moved_to_cart {
+	opacity:                .3;
+}
 /* /Selection */
 
 
