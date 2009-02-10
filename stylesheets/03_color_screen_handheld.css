@@ -179,11 +179,11 @@ ul#thumbnails a:hover img {
 }
 /* /Link to Selection */
 
-#summary a#see_data_sheet {
+#summary a {
 	color:                  #bd8f43;
 }
 
-#summary a#see_data_sheet:hover {
+#summary a:hover {
   color:                  #baa86d;
   text-decoration:		underline;
 }
