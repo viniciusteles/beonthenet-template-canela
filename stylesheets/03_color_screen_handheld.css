@@ -157,7 +157,7 @@ ul#thumbnails a:hover img {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints, .pages, #picture_description {
+#summary, #about_us, #data_sheet, body.application #main_content ul, .pages, #picture_description {
 	background-color:		#5b4426;
 	border: 				3px solid #d4c38a;
 	color:					#ebe0bc;
@@ -263,11 +263,11 @@ ul#thumbnails a:hover img {
 }
 /* /Data sheet */
 
-ul.error_hints a {
+ulbody.application #main_content ul a {
 	color:                  #d4c38a;	
 }
 
-ul.error_hints a:hover {
+ulbody.application #main_content ul a:hover {
 	color:                  #baa86d;
 	text-decoration: 		underline;	
 }
