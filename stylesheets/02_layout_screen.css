@@ -54,7 +54,6 @@ h3 a {
 
 }
 
-.text h2 { position: static !important; }
 
 /* Header tabbed menu */
 #header {
@@ -666,6 +665,7 @@ body > #facebox {
 .text #main_content h2 {
   clear:                  left;
   padding:                1.5em 0 1em 0;
+  position:               static;
 }
 
 .text #main_content h3 {

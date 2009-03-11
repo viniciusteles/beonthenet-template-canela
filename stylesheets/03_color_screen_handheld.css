@@ -341,7 +341,7 @@ body#selection #selection_size label {
 	border-color:           #5b4426;
 }
 
-#cart_items.text {
+#cart_items.instructions {
 	background:             #bd8f43 url(../images/selection_instructions.gif) no-repeat center center;	
 }
 
