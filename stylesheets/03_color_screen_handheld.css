@@ -341,7 +341,7 @@ body#selection #selection_size label {
 	border-color:           #5b4426;
 }
 
-#cart_items.instructions {
+#cart_items.text {
 	background:             #bd8f43 url(../images/selection_instructions.gif) no-repeat center center;	
 }
 
@@ -391,17 +391,6 @@ body.best_galleries #second {
 	opacity:                .3;
 }
 /* /Selection */
-
-
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
-  color:                  #5b4426;
-  font-weight:				bold;
-}
-
-
-/* /Who */
 
 
 /* Forms (contact, checkout, search) */
@@ -566,31 +555,28 @@ h2#search_result_count label{
 
 
 
-/* Instructions */
-body.instructions #toc {
-  background-color:             #fff;
+/* Text */
+.text dt, 
+.text #main_content strong {
+  color:                  #5b4426;
+  font-weight:		    		bold;
+}
+
+.text #toc {
+  background-color:       #fff;
   border-color:           #f5f5f4;
 }
 
-body.instructions #main_content dt {
-  color:                  #111;
-}
-
-code {
-  color:                  #111;
-  background:             #f5f5f4; 
-}
-
-.instructions table * {
+.text table * {
   border-color:           #ebebeb;
 }
 
-.instructions th {
+.text th {
   color:                  #908e8d;
   background:             #f5f5f4;
 }
 
-.instructions td span {
+.text td span {
   color:                  #666;
 }
 
@@ -598,4 +584,9 @@ pre {
   background:             #f5f5f4;
   border-color:           #ebebeb;
 }
-/* /Instructions */
+
+code {
+  color:                  #111;
+  background:             #f5f5f4; 
+}
+/* /Text */
