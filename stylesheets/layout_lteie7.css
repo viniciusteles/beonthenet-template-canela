@@ -8,6 +8,12 @@ hr {
 	padding:                0;
 }
 
+ul#thumbnails {
+  margin-right:           -60px;	
+  width:				  960px;
+}
+
+
 /* Vertically centering images */
 ul#thumbnails li div a {
 	display:                block;
@@ -17,6 +23,10 @@ ul#thumbnails li div span.ie {
 	vertical-align:         middle;
 	height:                 100%;
 }
+ul#thumbnails li div img {
+	vertical-align:         middle;
+}
+
 
 .second {
   bottom:                 40px;

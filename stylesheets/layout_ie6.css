@@ -2,7 +2,7 @@
 
 
 body {
-	overflow:               hidden;
+  overflow:               hidden;
 }
 
 
@@ -13,11 +13,6 @@ body {
 
 #go_to_selection a {
 	padding-top:		  20px;
-}
-
-ul#thumbnails {
-  margin-right:           -60px;	
-  width:				  960px;
 }
 
 #all_pictures li, #cart_items li {
