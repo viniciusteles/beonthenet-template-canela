@@ -75,6 +75,7 @@ h3 a {
 
 #header ul {
   width:						200px;
+  padding-left:     40px;
   position:               		absolute;
   right:                  		260px;
   top:					 		30px;

@@ -26,7 +26,7 @@ html {
 }
 
 body {
-	background:           url(../images/bg_top.jpg) no-repeat top center;  
+  background:           url(../images/bg_top.jpg) no-repeat top center;  
 	color:				  #5b4426;
 }
 
@@ -84,7 +84,9 @@ h4 a:hover {
 
 
 /* Header tabbed menu */
-
+#header ul {
+  background:          transparent url(../images/header_menu_shading.png) no-repeat center left;
+}
 
 #header li a, #header li a:visited, #header li a:active {
 	color:					#d4c38a;
