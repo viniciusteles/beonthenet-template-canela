@@ -46,8 +46,13 @@ body#selection #selection_size {
 	filter:                 alpha(opacity=30);
 }
 
+
 label {
 	margin-top:             .3em;
+}
+
+#message_confirmation_yes {
+  margin-left:            16.5em;
 }
 
 #submit_button {

@@ -474,7 +474,7 @@ body#search #search_result_count label {
 /* /Selection */
 
 
-/* Forms (contact, checkout, search) */
+/* Forms (contact, checkout, search, rsvp) */
 label {
 	display:                block;
 	width:                  29%;
@@ -487,10 +487,26 @@ input, textarea {
 	width:                  40%;
 	padding:                0 .3em;
 	border:                 2px solid;
-  	margin:                 -1.25em 0 .75em 18em;
+  margin:                 -1.25em 0 .75em 18em;
 }
 
+input.rsvp_confirmation {
+  display:                inline;
+  width:                  auto;
+  padding:                0;
+  border:                 none;
+  margin-top:             0;
+  margin-bottom:          0;
+}
 
+#confirmation_yes, #confirmation_no {
+  display:                inline;
+  line-height:            3em;
+}
+
+#message_confirmation_no {
+  margin-left:            3em;
+}
 
 button {
 	display:                block;
@@ -552,7 +568,7 @@ body#pictures_sent #order_form p {
 	top:                    28px;
 	right:                  14px;
 }
-/* /Forms (contact, checkout, search) */
+/* /Forms (contact, checkout, search, rsvp) */
 
 
 /* Errors (404, 500, timeout, empty search results) */
