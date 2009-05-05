@@ -133,7 +133,7 @@ ul#thumbnails li div a {
 	background:             url(../images/thumb_box.png) right center;
 }
 
-body.all_videos ul#thumbnails li div a {
+body.videos ul#thumbnails li div a {
 	background:             url(../images/thumb_box_video.png) right center no-repeat;
 }
 
