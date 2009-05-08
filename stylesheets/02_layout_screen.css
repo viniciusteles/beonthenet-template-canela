@@ -153,10 +153,11 @@ ul#thumbnails li {
 	width:                  270px;
   margin:                 2.5em 42px 2em 0;  
   position:               relative;
+/*  border:1px dotted brown;*/
 }
 
 ul#thumbnails h3 {
-  width:                  100%;
+  width:                  270px;
   position:               absolute;
   bottom:                 290px;
   left:                   0;
@@ -189,7 +190,7 @@ ul#thumbnails li div a label {
 }
 
 body.videos #thumbnails img {
-  width:                  240px;
+  max-width:              240px;
 }
 /* /Thumbnails */
 

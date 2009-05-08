@@ -11,6 +11,13 @@ body {
 	bottom:                 -1px;
 }
 
+
+body.videos #thumbnails img {
+  width:            240px;
+  width:            expression(this.width > 240 ? "240px" : true);
+}
+
+
 #go_to_selection a {
 	padding-top:		  20px;
 }
