@@ -265,11 +265,11 @@ ul#thumbnails a:hover img {
 }
 /* /Data sheet */
 
-ulbody.application #main_content ul a {
+body.application #main_content ul a {
 	color:                  #d4c38a;	
 }
 
-ulbody.application #main_content ul a:hover {
+body.application #main_content ul a:hover {
 	color:                  #baa86d;
 	text-decoration: 		underline;	
 }
