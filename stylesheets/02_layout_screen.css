@@ -297,14 +297,17 @@ a#go_back_to_thumbnails {
   position:               absolute;
 	top:                    18em;
 }
+#big_video a {
+  top:                    100px;
+}
 
 #big_picture #previous, #big_video #previous {
-	margin-top:				90px;
+  margin-top:       90px;
 	left:                   -0.1em;
 	width:					24px;
 }
 #big_picture #next, #big_video #next {
-	margin-top:				90px;
+  margin-top:       90px;
 	right:                  -0.1em;
 	width:					24px;
 }
