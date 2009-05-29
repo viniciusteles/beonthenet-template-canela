@@ -130,7 +130,7 @@ h4 a:hover {
 /* Vertically centering images 
 (conditional comments for IE required) */
 ul#thumbnails li div a {
-	background:             url(../images/thumb_box.png) right center;
+	background:             url(../images/thumb_box.gif) right center;
 }
 
 body.videos ul#thumbnails li div a {
@@ -514,7 +514,7 @@ h2#search_result_count label{
 }
 
 #facebox {
-	background-color:             none;
+	background-color:             transparent;
 }
 
 #facebox div {
@@ -530,29 +530,23 @@ h2#search_result_count label{
 
 
 /* Footer */
-
 #footer {
 	background:             url(../images/bg-bottom.gif) repeat-x top left;
 }
 
-#footer em{
-	color:					#ebe0bc;
-}
-
-#footer p {
-	margin-bottom:          .5em;	
-	color:					#ebe0bc;
-}
-
-#footer p strong, #footer h6 {
-	color:					#ebe0bc;
-}
-
 #footer a {
-	color:					#d4c38a;
-	text-decoration:		underline;
+	color:					        #D4C38A;
 }
 
+#footer *, 
+#footer h1 a {
+	color:					        #EBE0BC;
+}
+
+#beonthenet:hover img, 
+#improveit:hover {
+  color:                  #D4C38A;
+}
 /* /Footer */
 
 

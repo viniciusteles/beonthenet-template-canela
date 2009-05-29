@@ -62,15 +62,9 @@ label {
 
 /* IE7: */
 #facebox * {
-	padding-right: 36px;
+  padding-right:          36px;
 }
 
 #facebox a {
-	right:   -36px;
-}
-
-#footer {
- 	height:					63px;
- 	margin-top:				34px;
- 	display:				block;
+  right:                  -18px;
 }

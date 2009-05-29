@@ -336,13 +336,22 @@ body.application #main_content li {
 
 
 /* Footer */
-#footer p, #footer h6 {
+#footer * {
   text-align:             center;
   line-height:						1.25em;
 }
 
-#footer h6 {
+#footer h1, #footer h2, #footer h6 {
   font-size:							70%;
+}
+
+#footer h1, #footer h1 a {
+  font-variant:           normal;
+  text-decoration:        none;
+}
+#footer #beonthenet, 
+#footer #improveit {
+  text-decoration:        underline;
 }
 /* /Footer */
 
