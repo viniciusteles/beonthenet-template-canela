@@ -1,0 +1,771 @@
+﻿html * {
+	padding:            0;
+	border:             none;
+	margin:             0 auto;
+}
+
+label, img  {
+	padding:            0;
+	margin:             0;
+}
+
+body {
+	padding:            0px;
+	margin:             0px;
+	margin:             0 auto;
+}
+
+#header, #main_content, #footer {
+  padding-right:      30px;
+  padding-left:       30px;
+  width:              900px;
+}
+
+#main_content{
+ 	min-height:			    374px;	
+ 	margin-top:				  20px;
+}
+
+hr, .emtpy, .empty, 
+#thumbnails li.empty, 
+#selected_pictures li.empty {
+	display:            block;
+	float:              none;
+	height:             0;
+	padding:            0;
+	margin:             0;
+	clear:              both;
+	visibility:         hidden;
+}
+
+a {
+	outline:            none;
+}
+
+h3 a {
+  padding:					  2px;
+}
+
+
+/* Header tabbed menu */
+#header {
+  min-height:             290px;
+  height:                 290px;
+  position:               relative;
+}
+
+#logo_print {
+  display:                none;
+}
+
+#logo_screen {
+  position:               absolute;
+  top:			  			30px;
+  right:					520px;
+}
+
+#header ul {
+  width:						200px;
+  padding-left:     40px;
+  position:               		absolute;
+  right:                  		260px;
+  top:					 		30px;
+}
+
+#header li {
+  display:                		block;
+  margin:						0 0 9px 0;
+
+}
+
+#header li a {
+  padding:                		2px;
+}
+/* /Header tabbed menu */
+
+
+/* Main content top segment */
+
+
+#subnavigation {
+	padding:                0;
+	margin:                 0 0 .3em 0;
+}
+
+#subnavigation a {
+  margin-right:           2.5em;
+}
+
+#main_content h2 {
+	margin-bottom:          5px;
+}
+
+h1 {
+  padding-bottom:         30px;
+}
+#gallery h1 em, #search h1 em {
+  display:                block;
+}
+#selection #main_content h1 {
+	float:                  left;
+}
+
+
+#main_content #data_sheet h2 {
+	position:				static;
+}
+
+body.application #main_content h2 {
+	position:				static;
+	padding-bottom:				50px;	
+}
+/* /Main content top segment */
+
+
+/* Thumbnails */
+ul#thumbnails {
+  margin-right:           -42px;	
+}
+
+ul#thumbnails li {
+	float:                  left;
+	width:                  270px;
+  margin:                 10px 42px 10px 0;  
+  position:               relative;
+}
+.pictures#index #thumbnails li, 
+.videos#index #thumbnails li {
+  margin:                 2.5em 42px 2em 0;
+}
+
+ul#thumbnails h2 {
+  width:                  270px;
+  position:               absolute;
+  bottom:                 285px;
+  left:                   0;
+}
+
+ul#thumbnails li div {
+	position:               relative;
+}
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	display:                table-cell;
+	width:                  270px;
+	height:                 270px;
+	vertical-align:         middle;
+}
+
+
+ul#thumbnails li div a label {
+	width:                  auto;
+	position:               absolute;
+	bottom:                 7px;
+	left:                   10px;
+}
+
+.videos #thumbnails h2 {
+  bottom:                 280px;
+}
+.videos #thumbnails h3 {
+  position:               relative;
+  top:                    .5em;
+}
+
+body.videos #thumbnails img {
+  max-width:              240px;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+	padding:                20px;
+  	margin-bottom:          20px;
+}
+
+#summary, #picture_description {
+	position:               relative;
+	clear:                  both;
+}
+
+#gallery #summary, #picture #summary {
+	min-height:             4.5em;
+	height:                 auto !important;
+	height:                 4.5em;
+  padding-right:          20em;
+}
+
+.text #summary {
+  margin-right:           -140px;
+  margin-left:            -140px;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#go_to_selection a {
+	width:                  80px;
+	height:                 80px;
+	padding-top:            5px;
+	padding-left:           190px;
+	position:               absolute;
+	top:                    15px;
+	right:                  14px;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  clear:both;
+  padding:                1px 20px 5px 20px;
+  margin:                 5px 0;
+}
+
+.pages a, .pages strong {
+  padding:                0 .25em;
+}
+
+.pages strong {
+/*  position:               relative;*/
+/*  top:                    .15em;*/
+}
+
+.pages a.previous {
+  padding-left:           12px;
+}
+
+.pages a.next {
+  padding-right:          12px;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet {
+	clear:                  both;
+}
+
+#data_sheet h2 {
+  margin:                 0 0 1em 0;
+}
+
+
+
+#data_sheet dt {
+	float:                  left;
+	clear:                  left;
+  margin-right:           .5em;
+}
+/* /Data sheet */
+
+a#go_back_to_thumbnails {
+	padding-left:			14px;
+}
+
+/* Big picture, big video */
+#big_picture, #big_video {
+	width:                  900px;
+/*  min-height:             33.25em;*/
+	min-height:             420px;
+	height:                 auto !important;
+	height:                 33.25em;
+	margin-bottom:          1em;
+	position:               relative;
+}
+
+#big_picture a, #big_video a {
+	width:                  4.75em;
+  position:               absolute;
+	top:                    18em;
+}
+#big_video a {
+  top:                    100px;
+}
+
+#big_picture #previous, #big_video #previous {
+  margin-top:       90px;
+	left:                   -0.1em;
+	width:					24px;
+}
+#big_picture #next, #big_video #next {
+  margin-top:       90px;
+	right:                  -0.1em;
+	width:					24px;
+}
+
+#big_picture a span, #big_video a span {
+	width:                  101%;
+	height:                 60px;
+	position:               absolute;
+}
+
+#big_picture img {
+ 	border:                 3px solid;
+}
+
+#big_picture label {
+	width:                  13%;
+	padding:                3px;
+	position:               absolute;
+	bottom:                 -6px;
+	right:                  43.5%;
+	left:                   43.5%;
+}
+
+#big_video object p {
+  margin:                 1.5em 10em;
+}
+
+#big_video label {
+  display:                block;
+  margin:                 .25em auto 0 auto;
+  width:                  auto;
+}
+
+#big_video label span {
+  display:                block;
+}
+
+#big_video object a {
+  position:               static;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags {
+  margin:                 .6em 0;
+}
+
+#tags h3, #tags p, #tags a {
+	display:                inline;
+  margin-right:           .7em;
+}
+/* /Tags */
+
+
+/* Selection */
+#all_pictures {
+	float:                  left;
+	width:                  31em;
+	margin-top:             .5em;
+	margin-bottom:          -3.5em;
+	position:               relative;
+	z-index:                3;
+}
+
+#cart_items {
+  	width:                  20.25em;
+	min-height:             405px;
+	height:                 25.3em;
+	border-width:           2px;
+	border-style:           solid;
+	margin-top:             .75em;
+	margin-left:            572px;
+	position:               relative;
+	z-index:                2;
+}
+
+
+
+#all_pictures li, #cart_items li, #selected_pictures li {
+	float:                  left;
+	width:                  75px;
+	height:                 75px;
+	margin:                 3px;
+	position:               relative;
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	width:                  auto;
+	padding:                1px 3px;
+	margin:                 0;
+	position:               absolute;
+	bottom:                 1px;	
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	left:                   1px;
+}
+
+#all_pictures a, #cart_items a, 
+#selected_pictures a {
+	right:                  1px;
+	line-height:			100%;	
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	width:                  12px;
+	height:                 16px;
+}
+
+#selected_pictures a.remove_picture {
+	padding:                0;
+	position:               static;
+}
+
+.cart-active, .move {
+	cursor:                 move;
+}
+
+
+body#selection #selection_size {
+  	float:                  right;
+ 	margin-right:           -21.55em;
+	position:               relative;
+	top:                    1.0em;
+  	right:                  36.5em;
+	z-index:                1;
+}
+body#selection #selection_size label {
+	display:                inline;
+	padding:                .34em 1.5em .35em .8em;
+	margin-left:            3em;
+	visibility:             visible;
+}
+
+body#checkout #selection_size,
+body#pictures_sent #selection_size {
+  margin-bottom:          20px;
+}
+body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
+body#search #search_result_count label {
+  display:                inline;
+  margin:                 0;
+}
+
+.go_to_checkout {
+	min-height:             70px;
+	height:                 auto !important;
+	height:                 70px;
+ 	padding:                15px 95px 0 0;
+  margin:                 .5em 0 -.6em 40em;
+}
+
+#first.go_to_checkout {
+	position:               relative;
+	bottom:                 1.2em;
+}
+
+#back_to_gallery a {
+	display:                block;
+	margin:                 1.5em 0;
+}
+/* /Selection */
+
+
+/* Forms (contact, checkout, search, rsvp) */
+label {
+	display:                block;
+	width:                  29%;
+	margin-top:             .2em;
+	margin-right:           1em;
+}
+
+input, textarea {
+	display:                block;
+	width:                  40%;
+	padding:                0 .3em;
+	border:                 2px solid;
+  margin:                 -1.25em 0 .75em 18em;
+}
+
+input.rsvp_confirmation {
+  display:                inline;
+  width:                  auto;
+  padding:                0;
+  border:                 none;
+  margin-top:             0;
+  margin-bottom:          0;
+}
+
+#confirmation_yes, #confirmation_no {
+  display:                inline;
+  line-height:            3em;
+}
+
+#message_confirmation_no {
+  margin-left:            3em;
+}
+
+button {
+	display:                block;
+  padding:                .2em .5em;
+	border:                 0px;
+  margin:                 auto;
+}
+button:active {
+	border-style:           inset;
+}
+
+.submitting {
+  padding-right:          2.5em;
+	position:               relative;
+	left:                   1em;
+}
+.submitting:active {
+	border-style:           outset;
+}
+
+button * {
+	outline:                none;
+}
+
+#submit_error, #submit_success {
+	padding:                .5em 8em;
+	margin-bottom:          1em;
+}
+
+/* Specific for checkout e-mail form */
+body#checkout #order_form p,
+body#pictures_sent #order_form p {
+  padding-left:            1.75em;
+}
+
+/* Specific for global search form */
+#global_search {
+	width:                  189px;
+	padding-left:           20px;
+	position:               absolute;
+	top:                    184px;
+	left:                   230px;
+	height:					39px;
+}
+
+#global_search fieldset {
+	padding-right:          10px;
+}
+
+#global_search #search_type {
+	display:                none;
+}
+
+#global_search #query {
+	width:					    160px;
+	height:					    20px;
+	padding:				    2px;
+	outline:            none;
+	position:           absolute;
+	top:                28px;
+	right:              14px;
+}
+/* /Forms (contact, checkout, search, rsvp) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found {
+	position:               relative;
+	z-index:                1;
+}
+	
+body.application #main_content h2 {
+	padding-top:            210px;
+  margin:                 0 0 2em 0;
+}
+
+body.application #main_content ul {
+	margin-top:             .5em;
+}
+
+#valid_search_suggestions {
+	padding-left:           23em;
+	margin-top:             1.2em;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox {
+	position:               absolute;
+	top:                    5em;
+	z-index:                100;
+}
+body > #facebox {
+	right:                  0;
+	left:                   0;
+}
+
+#facebox div {
+	min-width:              50px;
+	width:                  50px;
+	padding-top:            10px;
+  margin:                 auto;
+}
+#facebox > div {
+	width:                  auto;
+	display:                table;
+}
+
+#facebox p {
+	padding:                0 0 0 18px;
+	background-position:    bottom left;
+	position:               relative;
+}
+
+#facebox a {
+	padding:                15px 18px 0 0;
+	outline:                none;
+	position:               absolute;
+	top:                    -10px;
+	right:                  0;
+}
+#facebox p > a {
+	left:                   10px;
+}
+
+#facebox img {
+	padding:                20px 18px 18px 0;
+	background-position:bottom right;
+	margin-bottom:          -2px;
+}
+#facebox p > img {
+	margin-bottom:          -6px;
+}
+*:first-child + html #facebox img {
+	margin-bottom:          -2px;
+}
+/* /Facebox */
+
+/* Footer */
+#footer {
+  height:                 104px;
+  padding-top:            30px;
+}
+
+#footer p {
+	margin-bottom:          .5em;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h3 {
+  margin-top:             .5em;
+}
+
+#footer h5 {
+  margin:                 1em 0 0 0;
+}
+/* /Footer */
+
+
+
+/* Text */
+.text #main_content {
+  width:                  620px;
+  padding-right:          170px;
+  padding-bottom:         50px;
+  padding-left:           170px;
+}
+
+.text #toc {
+  float:                  left;
+  padding:                .75em .75em .75em 1.5em;
+  border:                 1px solid;
+  margin:                 0 2em 1em 0 !important;
+}
+
+.text #main_content p {
+  margin:                 1em 0;
+}
+
+.text #main_content h1 {
+  margin-left:            -140px;
+}
+
+.text #main_content h2 {
+  clear:                  left;
+  padding:                1.5em 0 1em 0;
+  position:               static;
+}
+
+.text #main_content h3 {
+  padding:                1em 0 .75em 0;
+}
+
+.text #main_content h4 {
+  margin-top:             -.8em;
+}
+
+.text #main_content dl, 
+.text #main_content ul {
+  margin:                 1.6em 3.5em;
+}
+
+.text #main_content dt {
+  float:                  left;
+  margin-top:             -.15em;
+  margin-right:           .5em;
+}
+
+.text #main_content dd {
+  margin:                 0 0 1em 2.5em;
+}
+
+.text #main_content ul li {
+  margin-bottom:          1em;
+}
+
+.text #main_content ul ul {
+  margin:                 0 1em;
+}
+
+.text table {
+  border-collapse:        collapse;
+  margin:                 auto;
+}
+
+.text table * {
+  border:                 1px solid;
+}
+
+.text th {
+  padding:                .5em 1.5em;
+}
+
+.text td {
+  padding:                .5em 1.5em;
+}
+
+.text td span {
+  display:                block;
+  border:                 none;
+  margin:                 0 1.5em;
+}
+
+.text td a, 
+.text td code {
+  border:                 none;
+  margin:                 0 -1em;
+  white-space:            nowrap;
+}
+
+.text td code {
+  display:                block;
+  margin-top:             .75em;
+}
+
+pre {
+  padding:                .5em 3em;
+  border:                 1px solid;
+  margin:                 1em 0;
+  overflow:               auto;
+}
+
+code {
+  padding:                .3em .5em;
+}
+/* /Text */

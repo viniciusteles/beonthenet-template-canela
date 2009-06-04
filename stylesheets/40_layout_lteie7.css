@@ -27,9 +27,9 @@ ul#thumbnails li div img {
 	vertical-align:         middle;
 }
 
-
 .second {
-  bottom:                 40px;
+  position:               relative;
+  bottom:                 35px;
 }
 
 #all_pictures label, #cart_items label, 

@@ -1,36 +1,44 @@
 /* Typography global attributes */
 html * {
-  list-style-type:        none;
-  font-family:            Arial, sans-serif;
+  list-style-type:    none;
+  font-family:        Arial, sans-serif;
 }
 
 p, li, dd, dt {
-	font-size:              75%;
-	line-height:            1.7em;
+	font-size:          75%;
+	line-height:        1.7em;
 }
 
 strong {
-  font-weight:            bold;
+  font-weight:        bold;
 }
 
 em {
-  font-style:             italic;
+  font-style:         italic;
 }
 
 h1 {
-
-  font-size:              180%;
-  font-family:			Helvetica, Arial, Sans-serif;
+  font-size:          180%;
+  font-family:			  Helvetica, Arial, Sans-serif;
+}
+#gallery h1, #search h1 {
+  font-size:          95%;
+  
+}
+#gallery h1 em, #search h1 em {
+  font-style:         normal;
+  font-size:          195%; 
 }
 
 h2 {
-  font-size:              95%;
-  	font-family:			Helvetica, Arial, Sans-serif;
+  font-size:          95%;
+	font-family:			  Helvetica, Arial, Sans-serif;
 }
 
 h3, h3 a {
-  font-size:                 	16px;
-  	font-family:			Helvetica, Arial, Sans-serif;
+  font-size:          16px;
+	font-family:			  Helvetica, Arial, Sans-serif;
+  line-height:				110%;
 }
 
 h4, h4 a {
@@ -45,19 +53,20 @@ h3 a:focus, h3 a:hover {
 
 
 /* Header tabbed menu */
-
-#header h1#logo_screen {
-    text-align:				right;
+#header p strong {
+	text-align:         right;
 }
 
-#header h1 a{
-  	font-size:              48px;
-  	font-family:			Helvetica, Arial, Sans-serif;
-  	text-decoration:		none;
+#header p strong a, 
+#header p strong a img {
+	font-size:          48px;
+	font-family:			  Helvetica, Arial, Sans-serif;
+  line-height:        1em;
+	text-decoration:	  none;
 }
 
 #header li {
-  	font-size:             	14px;
+  	font-size:        14px;
   	font-family:			Helvetica, Arial, Sans-serif;
 }
 
@@ -72,7 +81,6 @@ h3 a:focus, h3 a:hover {
 	font-size:				14px;
 	font-weight:			bold;
 }
-
 /* /Header tabbed menu */
 
 
@@ -82,8 +90,15 @@ ul#thumbnails li {
    text-align:             center;
 }
 
-ul#thumbnails h3 {
-  line-height:            80%;
+#thumbnails h2, #thumbnails h2 a {
+  font-size:          16px;
+	font-family:			  Helvetica, Arial, Sans-serif;
+  line-height:        90%;
+}
+
+#thumbnails h3, #thumbnails h3 a {
+  font-size:          12px;
+  text-decoration:    none;
 }
 
 ul#thumbnails li div a {
@@ -103,13 +118,6 @@ ul#thumbnails a img {
 	line-height:            2.5em;
 }
 /* /Summary */
-
-
-/* Link to Selection */
-#go_to_selection a {
-  line-height:				27px;
-}
-/* /Link to Selection */
 
 
 /* Paging */
@@ -337,21 +345,25 @@ body.application #main_content li {
 
 /* Footer */
 #footer * {
-  text-align:             center;
-  line-height:						1.25em;
+  text-align:         center;
+  line-height:				1.25em;
 }
 
-#footer h1, #footer h2, #footer h6 {
-  font-size:							70%;
+#footer h2, #footer h3, #footer h6 {
+  font-size:					70%;
 }
 
-#footer h1, #footer h1 a {
-  font-variant:           normal;
-  text-decoration:        none;
+#footer h2, #footer h2 a {
+  font-variant:       normal;
+  text-decoration:    none;
 }
 #footer #beonthenet, 
 #footer #improveit {
-  text-decoration:        underline;
+  text-decoration:    underline;
+}
+
+#footer h3 a {
+  font-size:          100%;
 }
 /* /Footer */
 
