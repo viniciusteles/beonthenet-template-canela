@@ -93,7 +93,7 @@ ul#thumbnails li {
 #thumbnails h2, #thumbnails h2 a {
   font-size:          16px;
 	font-family:			  Helvetica, Arial, Sans-serif;
-  line-height:        90%;
+  line-height:        1em;
 }
 
 #thumbnails h3, #thumbnails h3 a {
