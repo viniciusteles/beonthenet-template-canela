@@ -552,6 +552,10 @@ h2#search_result_count label{
 
 
 /* Text */
+.text #main_content blockquote {
+  background:             transparent url(../images/quotation_marks.gif) no-repeat left top;
+}
+
 .text dt, 
 .text #main_content strong {
   color:                  #5b4426;

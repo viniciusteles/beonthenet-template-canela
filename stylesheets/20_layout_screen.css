@@ -700,6 +700,12 @@ body > #facebox {
   margin-top:             -.8em;
 }
 
+.text #main_content blockquote {
+  padding-top:            1px;
+  padding-left:           45px;
+  margin-left:            -45px;
+}
+
 .text #main_content dl, 
 .text #main_content ul {
   margin:                 1.6em 3.5em;
