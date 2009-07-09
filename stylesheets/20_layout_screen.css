@@ -270,9 +270,9 @@ a#go_back_to_thumbnails {
 #big_picture, #big_video {
 	width:                  900px;
 /*  min-height:             33.25em;*/
-	min-height:             420px;
-	height:                 auto !important;
-	height:                 33.25em;
+/*  min-height:             420px;*/
+/*  height:                 auto !important;*/
+/*  height:                 33.25em;*/
 	margin-bottom:          1em;
 	position:               relative;
 }
