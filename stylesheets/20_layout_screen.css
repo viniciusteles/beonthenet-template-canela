@@ -270,10 +270,9 @@ a#go_back_to_thumbnails {
 /* Big picture, big video */
 #big_picture, #big_video {
 	width:                  900px;
-/*  min-height:             33.25em;*/
-/*  min-height:             420px;*/
-/*  height:                 auto !important;*/
-/*  height:                 33.25em;*/
+  min-height:             140px;
+  height:                 auto !important;
+  height:                 140px;
 	margin-bottom:          1em;
 	position:               relative;
 }
@@ -281,7 +280,7 @@ a#go_back_to_thumbnails {
 #big_picture a, #big_video a {
 	width:                  24px;
   position:               absolute;
-	top:                    120px;
+	top:                    70px;
 }
 #big_picture #previous, #big_video #previous {
 	left:                   0;
