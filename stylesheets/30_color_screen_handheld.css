@@ -381,12 +381,8 @@ body#selection #selection_size label {
 	color:					#5b4426;
 }
 
-body.best_galleries #first {
+.go_to_checkout {
 	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
-}
-
-body.best_galleries #second {
-	background:             transparent url(../images/shopping_cart_second.gif) no-repeat right center;
 }
 
 .moved_to_cart {
