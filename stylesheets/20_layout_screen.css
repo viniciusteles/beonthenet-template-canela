@@ -64,6 +64,14 @@ h3 a {
   right:					520px;
 }
 
+#header em {
+  position:             absolute;
+  top:                  120px;
+  left:                 170px;
+
+  display:              none; /* Must override on accounts */
+}
+
 #header ul {
   width:						200px;
   padding-left:     40px;

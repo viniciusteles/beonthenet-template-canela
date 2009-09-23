@@ -84,6 +84,10 @@ h4 a:hover {
 
 
 /* Header tabbed menu */
+#header em {
+  color:                #BD8F43;
+}
+
 #header ul {
   background:          transparent url(../images/header_menu_shading.png) no-repeat center left;
 }
