@@ -73,16 +73,18 @@ h3 a {
 }
 
 #header ul {
-  width:						200px;
-  padding-left:     40px;
-  position:               		absolute;
-  right:                  		260px;
-  top:					 		30px;
+  width:						  200px;
+  height:             255px;
+  padding-top:        30px;
+  padding-left:       40px;
+  position:           absolute;
+  top:                0;
+  right:              260px;
 }
 
 #header li {
-  display:                		block;
-  margin:						0 0 9px 0;
+  display:            block;
+  margin:						  0 0 9px 0;
 
 }
 

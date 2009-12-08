@@ -89,7 +89,7 @@ h4 a:hover {
 }
 
 #header ul {
-  background:          transparent url(../images/header_menu_shading.png) no-repeat center left;
+  background:          transparent url(../images/header_menu_shading.png) no-repeat left top;
 }
 
 #header li a, #header li a:visited, #header li a:active {
