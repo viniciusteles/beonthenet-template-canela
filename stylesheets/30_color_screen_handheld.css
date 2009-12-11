@@ -174,11 +174,11 @@ ul#thumbnails a:hover img {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
 	background:             url(../images/select_pictures.gif) no-repeat top left;
 	color: 					#bd8f43;
 }
-#go_to_selection a:hover {
+#go_to_selection:hover {
 	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
 	text-decoration:		underline;
   color:                  #baa86d;
