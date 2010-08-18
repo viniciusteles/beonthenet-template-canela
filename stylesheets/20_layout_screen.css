@@ -31,10 +31,11 @@ hr, .emtpy, .empty,
 #selected_pictures li.empty {
 	display:            block;
 	float:              none;
+	clear:              both;
+  width:              0;
 	height:             0;
 	padding:            0;
 	margin:             0;
-	clear:              both;
 	visibility:         hidden;
 }
 
@@ -95,8 +96,6 @@ h3 a {
 
 
 /* Main content top segment */
-
-
 #subnavigation {
 	padding:                0;
 	margin:                 0 0 .3em 0;
@@ -120,7 +119,6 @@ h1 {
 	float:                  left;
 }
 
-
 #main_content #data_sheet h2 {
 	position:				static;
 }
@@ -130,6 +128,51 @@ body.application #main_content h2 {
 	padding-bottom:				50px;	
 }
 /* /Main content top segment */
+
+
+/* Flickr */
+#main_content h5 {
+  padding:            0;
+  margin:             -4.4em 0 3.2em;
+}
+
+#main_content h5 a, #big_picture cite a {
+  display:            inline-block;
+  width:              37px;
+  height:             14px;
+  overflow:           hidden;
+  vertical-align:     bottom;
+}
+
+#thumbnails cite {
+  display:            block;
+  width:              15px;
+  height:             8px;
+  margin:             0;
+  position:           absolute;
+  bottom:             25px;
+  left:               14px;
+  overflow:           hidden;
+}
+#thumbnails cite a {
+  display:            inline-block;
+}
+
+#big_picture #view_on_flickr, 
+#big_picture cite a {
+  position:           static;
+}
+
+#big_picture cite {
+  position:           absolute;
+  top:                -19px;
+  right:              0;
+}
+
+body #footer h6 {
+  margin:             1.5em 0 -.25em;
+}
+/* /Flickr */
 
 
 /* Thumbnails */
@@ -641,7 +684,7 @@ body > #facebox {
 /* Footer */
 #footer {
   height:                 104px;
-  padding-top:            30px;
+  padding:                20px 0 9px;
 }
 
 #footer p {

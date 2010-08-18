@@ -1,14 +1,21 @@
 /* Style sheet with conditions for IE6. */
 
-
 body {
   overflow:               hidden;
 }
 
-
-
 #header ul {
 	bottom:                 -1px;
+}
+
+
+/* Flickr */
+#thumbnails cite a, #thumbnails cite a:hover {
+  background-image:       url(../images/flickr_ie6.png);
+	filter:                 alpha(opacity=30);
+}
+#thumbnails cite a:hover {
+	filter:                 alpha(opacity=100);
 }
 
 

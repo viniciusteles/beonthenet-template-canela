@@ -105,8 +105,6 @@ h4 a:hover {
 
 
 /* Main content top segment */
-
-
 #go_back_to_thumbnails {
 	background:             url(../images/arrow_left_claro.gif) no-repeat 0px;	
 	color:					#5b4426;
@@ -124,9 +122,28 @@ h4 a:hover {
 #go_to_gallery:hover {
 	color:					#d4c38a;	
 }
-
-
 /* /Main content top segment */
+
+
+/* Flickr */
+#main_content h5 a, #big_picture cite a {
+  background:         transparent url(../images/flickr_logo.png) no-repeat left;
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat left top;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+body #footer h6 {
+  color:              #D4C38A;
+}
+body #footer h6 em {
+  color:              #BD8F43;
+}
+/* /Flickr */
 
 
 /* Thumbnails */
