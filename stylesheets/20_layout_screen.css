@@ -130,24 +130,24 @@ body.application #main_content h2 {
 /* /Main content top segment */
 
 
-/* Flickr */
+/* Flickr e Picasa */
 #main_content h5 {
   padding:            0;
   margin:             -4.4em 0 3.2em;
 }
 
 #main_content h5 a, #big_picture cite a {
-  display:            inline-block;
-  width:              37px;
-  height:             14px;
-  overflow:           hidden;
-  vertical-align:     bottom;
+/*  display:            inline-block;*/
+/*  width:              37px;*/
+/*  height:             14px;*/
+/*  overflow:           hidden;*/
+/*  vertical-align:     bottom;*/
 }
 
 #thumbnails cite {
   display:            block;
-  width:              15px;
-  height:             8px;
+  width:              16px;
+  height:             16px;
   margin:             0;
   position:           absolute;
   bottom:             25px;
@@ -156,6 +156,7 @@ body.application #main_content h2 {
 }
 #thumbnails cite a {
   display:            inline-block;
+  padding:            9px 0 0 25px;
 }
 
 #big_picture #view_on_flickr, 
@@ -172,7 +173,7 @@ body.application #main_content h2 {
 body #footer h6 {
   margin:             1.5em 0 -.25em;
 }
-/* /Flickr */
+/* /Flickr e Picasa */
 
 
 /* Thumbnails */
