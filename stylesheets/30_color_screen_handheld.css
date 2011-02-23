@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background:           url(../images/bg_top.jpg) no-repeat top center;  
+/*  background:           url(../images/bg_top.jpg) no-repeat top center;  */
 	color:				  #5b4426;
 }
 
@@ -194,11 +194,12 @@ ul#thumbnails a:hover img {
 
 /* Link to Selection */
 #go_to_selection {
-	background:             url(../images/select_pictures.gif) no-repeat top left;
+/*  background:             url(../images/select_pictures.gif) no-repeat top left;*/
+	background:             transparent url(../images/select_pictures.png) no-repeat 95px top;
 	color: 					#bd8f43;
 }
 #go_to_selection:hover {
-	background:             url(../images/select_pictures_hover.gif) no-repeat top left;
+/*  background:             url(../images/select_pictures_hover.gif) no-repeat top left;*/
 	text-decoration:		underline;
   color:                  #baa86d;
 }
@@ -367,15 +368,13 @@ body#selection #selection_size label {
 }
 
 #cart_items.instructions {
-	background:             #bd8f43 url(../images/selection_instructions.gif) no-repeat center center;	
+	background:             #bd8f43 url(../images/selection_instructions.png) no-repeat center center;	
 }
-
 
 #all_pictures li label, #all_pictures li a, 
 #cart_items label, #cart_items a, 
 #selected_pictures label, #selected_pictures a {
 	background-color:       #fff;
-
 }
 
 #all_pictures label, #cart_items label, 
