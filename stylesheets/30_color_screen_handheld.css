@@ -22,7 +22,7 @@ html * {
 }
 
 html {
-	background:           #ebe0bc url(../images/bg.gif) repeat-x top left;
+	background:           #ebe0bc url(../images/bg.gif) repeat-x left 22px;
 }
 
 body {
