@@ -188,7 +188,18 @@ ul#thumbnails a:hover img {
 	color:					#ebe0bc;
 }
 
+#summary a {
+	color:                  #bd8f43;
+}
 
+#summary a:hover {
+  color:                  #baa86d;
+  text-decoration:		underline;
+}
+
+#main_content #summary strong {
+  color:                  #FFF;
+}
 /* /Summary */
 
 
@@ -204,15 +215,6 @@ ul#thumbnails a:hover img {
   color:                  #baa86d;
 }
 /* /Link to Selection */
-
-#summary a {
-	color:                  #bd8f43;
-}
-
-#summary a:hover {
-  color:                  #baa86d;
-  text-decoration:		underline;
-}
 
 
 /* Paging */
