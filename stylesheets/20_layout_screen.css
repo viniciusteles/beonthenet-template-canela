@@ -81,7 +81,7 @@ h3 a {
 
 /* Social media */
 html {
-  background:                       #ebe0bc url(../images/bg.png) repeat-x top !important;
+  background:                       #EBE0BC url(../images/bg.png) repeat-x top !important;
 }
 
 .social_media {
@@ -92,7 +92,12 @@ html {
 
 .social_media section {
   display:                          inline-block;
+  vertical-align:                   middle;
   width:                            49.5%;
+  opacity:                          .6;
+}
+.social_media section:hover {
+  opacity:                          1;
 }
 
 .social_media em {
@@ -105,10 +110,6 @@ html {
   color:                            #DDD;
 }
 
-.social_media iframe {
-  vertical-align:                   middle;
-}
-
 @media screen and (min-width:1024px) {
   .social_media {
     padding-right:                  60px;
@@ -119,8 +120,14 @@ html {
   }
 }
 
+.social_sharing > iframe, .social_sharing > div {
+  display:                          inline-block;
+  vertical-align:                   middle !important;
+}
+
 .social_links {
   text-align:                       right;
+  height:                           32px;
 }
 
 .social_links a {
